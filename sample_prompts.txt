@@ -1,0 +1,7 @@
+<lesion> dermoscopy image of nevus
+<lesion> dermoscopy image of melanoma --seed 42
+<lesion> dermoscopy image of basal cell carcinoma
+<lesion> dermoscopy image of benign keratosis
+<lesion> dermoscopy image of dermatofibroma
+<lesion> dermoscopy image of squamous cell carcinoma
+<lesion> dermoscopy image of actinic keratosis

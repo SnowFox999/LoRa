@@ -6,6 +6,13 @@ __pycache__
 *.egg-info
 build
 wd14_tagger_model
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
 
 # IDE and Editor specific
 .vscode
@@ -56,3 +63,17 @@ sd-scripts
 venv
 venv*
 .python-version
+
+# LoRa outputs / models
+lora_output/
+*.pt
+*.pth
+*.ckpt
+*.pdf
+*.png
+
+lora_dataset/
+docker_publish.yml
+typos.yaml
+.cashe/
+.github/
