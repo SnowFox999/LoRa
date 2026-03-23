@@ -10,6 +10,7 @@ wd14_tagger_model
 *.pyo
 *.pyd
 *.swp
+*.safetensors
 
 # Jupyter
 .ipynb_checkpoints/
@@ -45,6 +46,10 @@ test/output
 test/log*
 test/*.json
 test/ft
+
+
+pretrained/
+sd-scripts/
 
 # Temporary requirements
 requirements_tmp_for_setup.txt

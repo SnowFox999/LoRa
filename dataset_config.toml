@@ -1,36 +1,37 @@
 [[datasets]]
-resolution = 512
+resolution = 1024
 batch_size = 1
 enable_bucket = true
 bucket_reso_steps = 64
 flip_aug = true
-color_aug = true
-random_crop = true
+color_aug = false
+random_crop = false
+caption_extension = ".txt"
 
   [[datasets.subsets]]
-  image_dir = "/home/project/datasets/bcn_lora/AK"
-  num_repeats = 4
-
-  [[datasets.subsets]]
-  image_dir = "/home/project/datasets/bcn_lora/BCC"
-  num_repeats = 1
-
-  [[datasets.subsets]]
-  image_dir = "/home/project/datasets/bcn_lora/BKL"
+  image_dir = "/home/nshevtsova/datasets/bcn_lora/AK"
   num_repeats = 3
 
   [[datasets.subsets]]
-  image_dir = "/home/project/datasets/bcn_lora/DF"
-  num_repeats = 4
-
-  [[datasets.subsets]]
-  image_dir = "/home/project/datasets/bcn_lora/MEL"
-  num_repeats = 2
-
-  [[datasets.subsets]]
-  image_dir = "/home/project/datasets/bcn_lora/NV"
+  image_dir = "/home/nshevtsova/datasets/bcn_lora/BCC"
   num_repeats = 1
 
   [[datasets.subsets]]
-  image_dir = "/home/project/datasets/bcn_lora/SCC"
-  num_repeats = 4
+  image_dir = "/home/nshevtsova/datasets/bcn_lora/BKL"
+  num_repeats = 3
+
+  [[datasets.subsets]]
+  image_dir = "/home/nshevtsova/datasets/bcn_lora/DF"
+  num_repeats = 3
+
+  [[datasets.subsets]]
+  image_dir = "/home/nshevtsova/datasets/bcn_lora/MEL"
+  num_repeats = 2
+
+  [[datasets.subsets]]
+  image_dir = "/home/nshevtsova/datasets/bcn_lora/NV"
+  num_repeats = 1
+
+  [[datasets.subsets]]
+  image_dir = "/home/nshevtsova/datasets/bcn_lora/SCC"
+  num_repeats = 3
