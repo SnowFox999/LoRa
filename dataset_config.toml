@@ -4,8 +4,8 @@ batch_size = 4
 enable_bucket = true
 bucket_reso_steps = 64
 flip_aug = true
-color_aug = true
-random_crop = true
+color_aug = false
+random_crop = false
 caption_extension = ".txt"
 
   [[datasets.subsets]]
