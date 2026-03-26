@@ -5,8 +5,7 @@ torch==2.5.1+cu124
 torchvision==0.20.1+cu124
 xformers==0.0.28.post3
 bitsandbytes>=0.45.0
-tensorboard==2.15.2
-tensorflow==2.15.0.post1
+tensorboard==2.18.0
 onnxruntime-gpu==1.19.2
 
 -r requirements.txt
