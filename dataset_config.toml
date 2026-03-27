@@ -9,29 +9,29 @@ random_crop = false
 caption_extension = ".txt"
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/lora/AK"
+  image_dir = "/home/nshevtsova/datasets/bio_clip/AK"
   num_repeats = 3
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/lora/BCC"
+  image_dir = "/home/nshevtsova/datasets/bio_clip/BCC"
   num_repeats = 1
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/lora/BKL"
+  image_dir = "/home/nshevtsova/datasets/bio_clip/BKL"
   num_repeats = 3
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/lora/DF"
+  image_dir = "/home/nshevtsova/datasets/bio_clip/DF"
   num_repeats = 3
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/lora/MEL"
+  image_dir = "/home/nshevtsova/datasets/bio_clip/MEL"
   num_repeats = 2
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/lora/NV"
+  image_dir = "/home/nshevtsova/datasets/bio_clip/NV"
   num_repeats = 1
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/lora/SCC"
+  image_dir = "/home/nshevtsova/datasets/bio_clip/SCC"
   num_repeats = 3
