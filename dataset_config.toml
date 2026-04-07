@@ -4,34 +4,34 @@ batch_size = 4
 enable_bucket = true
 bucket_reso_steps = 64
 flip_aug = true
-color_aug = false
-random_crop = false
+color_aug = true
+random_crop = true
 caption_extension = ".txt"
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/bio_clip/AK"
-  num_repeats = 3
-
-  [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/bio_clip/BCC"
-  num_repeats = 1
-
-  [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/bio_clip/BKL"
-  num_repeats = 3
-
-  [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/bio_clip/DF"
-  num_repeats = 3
-
-  [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/bio_clip/MEL"
+  image_dir = "/home/nshevtsova/datasets/bcn_org/AK"
   num_repeats = 2
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/bio_clip/NV"
+  image_dir = "/home/nshevtsova/datasets/bcn_org/BCC"
   num_repeats = 1
 
   [[datasets.subsets]]
-  image_dir = "/home/nshevtsova/datasets/bio_clip/SCC"
+  image_dir = "/home/nshevtsova/datasets/bcn_org/BKL"
+  num_repeats = 1
+
+  [[datasets.subsets]]
+  image_dir = "/home/nshevtsova/datasets/bcn_org/DF"
   num_repeats = 3
+
+  [[datasets.subsets]]
+  image_dir = "/home/nshevtsova/datasets/bcn_org/MEL"
+  num_repeats = 1
+
+  [[datasets.subsets]]
+  image_dir = "/home/nshevtsova/datasets/bcn_org/NV"
+  num_repeats = 1
+
+  [[datasets.subsets]]
+  image_dir = "/home/nshevtsova/datasets/bcn_org/SCC"
+  num_repeats = 2
