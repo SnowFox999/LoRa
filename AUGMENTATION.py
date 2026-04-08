@@ -23,11 +23,11 @@ from PIL import Image
 from glob import glob
 
 # --- КОНФИГУРАЦИЯ ---
-LORA_WEIGHTS = "/home/nshevtsova/LoRa/lora_output/78_run/last.safetensors"
-DATASET_LORA_DIR = "/home/nshevtsova/datasets/special_promts"
+LORA_WEIGHTS = "/home/nshevtsova/LoRa/lora_output/org_run/at-step00016000.safetensors"
+DATASET_LORA_DIR = "/home/nshevtsova/datasets/bcn_org"
 ORIGINAL_METADATA_PATH = "/home/nshevtsova/metadata_clean.csv"
 OUT_DIR = Path("/home/nshevtsova/synthetic_dataset")
-OUT_IMG_DIR = OUT_DIR / "78_run"
+OUT_IMG_DIR = OUT_DIR / "org_run"
 
 os.makedirs(OUT_IMG_DIR, exist_ok=True)
 
@@ -140,7 +140,7 @@ for cls in stats.index:
 
 # --- СОХРАНЕНИЕ МЕТАДАННЫХ ---
 df_synth = pd.DataFrame(synthetic_metadata)
-df_synth.to_csv(OUT_DIR / "metadata_synth.csv", index=False)
+df_synth.to_csv(OUT_IMG_DIR / "metadata_synth.csv", index=False)
 
 print(f"\n Done! Generated {len(df_synth)} images.")
-print(f"Metadata saved to: {OUT_DIR / 'metadata_synth.csv'}")
+print(f"Metadata saved to: {OUT_IMG_DIR / 'metadata_synth.csv'}")
